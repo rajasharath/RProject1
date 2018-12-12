@@ -1,0 +1,589 @@
+"","link","url"
+"1","Skip to Content","#toolbarArea"
+"2","Menu","#"
+"3","Search","#"
+"4","800.227.2345","tel:800.227.2345"
+"5","
+                            
+                                document.write(unescape('%3Cscript language=""JavaScript"" type=""text/javascript"" src=""' + (('https:' == document.location.protocol) ? 'https:' : 'http:') + '//cbi.boldchat.com/aid/5386287375352862963/bc.cbhs""%3E%3C/script%3E'));
+                            
+                                bt_showChatHTML('Live Chat', 'Live Chat');
+                            Live Chat
+                        ","https://livechat.boldchat.com/aid/5386287375352862963/bc.chat?resize=true&cwdid=1134019502191338137"
+"6","","/"
+"7","Latest News","/latest-news.html"
+"8","English","#"
+"9","Español","/es/"
+"10","More Languages","/cancer-information-in-other-languages.html"
+"11","Donate","https://donate.cancer.org/index?lang=en"
+"12","Donate","https://donate.cancer.org/index?lang=en"
+"13","Cancer A-Z","/cancer.html"
+"14","Stay Healthy","/healthy.html"
+"15","Treatment & Support","/treatment.html"
+"16","Our Research","/research.html"
+"17","Get Involved","/involved.html"
+"18","Our Partners","/our-partners.html"
+"19","About Us","/about-us.html"
+"20","News","/latest-news.html"
+"21","Donate","https://donate.cancer.org/index?lang=en"
+"22","
+                                        double-chat-bubble
+                                        
+                                            document.write(unescape('%3Cscript language=""JavaScript"" type=""text/javascript"" src=""' + (('https:' == document.location.protocol) ? 'https:' : 'http:') + '//cbi.boldchat.com/aid/5386287375352862963/bc.cbhs""%3E%3C/script%3E'));
+                                        
+                                            bt_showChatHTML('Live Chat', 'Live Chat');
+                                        Live Chat
+                                    ","https://livechat.boldchat.com/aid/5386287375352862963/bc.chat?resize=true&cwdid=1134019502191338137"
+"23","
+                            
+                                
+                                    Cancer Helpline
+                                
+                                
+                                    800.227.2345
+                                
+                            
+                            Phone
+                        ","tel:800.227.2345"
+"24","Search","#"
+"25","
+            Donate Now
+            ","https://donate.cancer.org/?campaign=EOYCampaign2018&lang=en"
+"26","Latest News
+			","/latest-news.html"
+"27","
+        
+            
+	
+	
+    
+
+
+
+    (function() {
+        var imageDiv = document.getElementById(""cq\u002Dimage\u002Djsp\u002D\/content\/cancer\/en\/jcr:content\/home\u002Dnews\u002Dpar\/news_tiles_list_copy\/news\u002Dcolumns\u002Dpar\/responsive_columns\/column\u002D0\/callout_news_tile_co_1056117802\/image"");
+        var imageEvars = '{ imageLink: """", imageAsset: ""/content/dam/cancer-org/images/photographs/single-use/hispanic-couple-walking-in-park-restricted.jpg"", imageTitle: ""Hispanic Couple Walking in Park"" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: ""imageClick"", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: ""foundation\/components\/image""})');
+        }
+        
+    })();
+
+            
+                Nurture Your Emotional Health
+                
+                
+                    Take care of yourself emotionally to feel better and work better.
+
+                    Get the tips
+                
+            
+        
+        
+    ","/latest-news/nurture-your-emotional-health.html"
+"28","
+        
+            
+	
+	
+    
+
+
+
+    (function() {
+        var imageDiv = document.getElementById(""cq\u002Dimage\u002Djsp\u002D\/content\/cancer\/en\/jcr:content\/home\u002Dnews\u002Dpar\/news_tiles_list_copy\/news\u002Dcolumns\u002Dpar\/responsive_columns\/column\u002D1\/callout_news_tile_co\/image"");
+        var imageEvars = '{ imageLink: """", imageAsset: ""/content/dam/cancer-org/images/photographs/single-use/young-couple-drinking-coffee-outside-restricted.jpg"", imageTitle: ""Young Couple Drinking Coffee Outside"" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: ""imageClick"", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: ""foundation\/components\/image""})');
+        }
+        
+    })();
+
+            
+                Can Coffee Lower Cancer Risk?
+                
+                
+                    What the research says about coffee and your risk of cancer.
+
+                    Get the facts
+                
+            
+        
+        
+    ","/latest-news/can-coffee-lower-cancer-risk.html"
+"29","
+        
+            
+	
+	
+    
+
+
+
+    (function() {
+        var imageDiv = document.getElementById(""cq\u002Dimage\u002Djsp\u002D\/content\/cancer\/en\/jcr:content\/home\u002Dnews\u002Dpar\/news_tiles_list_copy\/news\u002Dcolumns\u002Dpar\/responsive_columns\/column\u002D2\/callout_news_tile_co\/image"");
+        var imageEvars = '{ imageLink: """", imageAsset: ""/content/dam/cancer-org/images/photographs/campaigns/promos/Judys%20Story%20Promo.jpg"", imageTitle: ""Help Fund Rides to Chemo"" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: ""imageClick"", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: ""foundation\/components\/image""})');
+        }
+        
+    })();
+
+            
+                Help Fund Rides to Chemo
+                
+                
+                    Donate so people like Judy can get to the treatment they need.
+
+                    Watch Judy's story
+                
+            
+        
+        
+    ","/our-brand.html"
+"30","
+        
+            
+	
+	
+    
+
+
+
+    (function() {
+        var imageDiv = document.getElementById(""cq\u002Dimage\u002Djsp\u002D\/content\/cancer\/en\/jcr:content\/home\u002Dnews\u002Dpar\/news_tiles_list_copy\/news\u002Dcolumns\u002Dpar\/responsive_columns\/column\u002D3\/callout_news_tile_co\/image"");
+        var imageEvars = '{ imageLink: """", imageAsset: ""/content/dam/cancer-org/images/photographs/campaigns/promos/Honor%20&%20Giving%20Memorial%20Promo.jpg"", imageTitle: ""Honor \x26 Memorial Giving Promo"" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: ""imageClick"", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: ""foundation\/components\/image""})');
+        }
+        
+    })();
+
+            
+                Honor & Memorial Giving
+                
+                
+                    Honor a loved one's life by helping to save others.
+
+                    Donate now
+                
+            
+        
+        
+    ","https://donate3.cancer.org/?campaign=CY17MemPod&giftType=mem&giftTypeMonthlyDisplay=0"
+"31","
+      View Their Stories
+ ","/our-brand.html"
+"32","
+        
+        
+            
+	.st0{fill:#1D1E23;}
+Cancer A-Z
+            Get expert information
+            
+                Get everything you need to know about cancer, from the basics to detailed information on more than 70 different cancer types.
+
+            
+        
+        
+    ","/cancer.html"
+"33","
+        
+        
+            
+	.st0{fill:#1F1F1F;}
+Treatment & Support
+            Find help managing treatment and recovery
+            
+                Whether you're looking for treatment information, caregiving advice or patient support programs, we have you covered.
+
+            
+        
+        
+    ","/treatment.html"
+"34","
+        
+        
+            
+	.st0{fill:#1F1F1F;}
+Stay Healthy
+            Reduce your cancer risk
+            
+                Many cancer deaths could be prevented by making healthy choices like not smoking and eating right. Learn what else you can do to reduce your risk.
+
+            
+        
+        
+    ","/healthy.html"
+"35","
+        
+        
+            
+	.st0{fill:#1F1F1F;}
+Our research programs
+            See what's happening in cancer research
+            
+                Whether we're funding research or conducting it ourselves, we're always looking for answers that will help you live longer – and better.
+
+            
+        
+        
+    ","/research.html"
+"36","
+        
+        
+            
+	.st0{clip-path:url(#SVGID_2_);fill:#231F20;}
+	.st1{clip-path:url(#SVGID_4_);fill:#231F20;}
+	.st2{clip-path:url(#SVGID_6_);fill:#231F20;}
+Get Involved
+            Become a volunteer
+            
+                We love our volunteers and want you to join us! Check out some of our volunteers’ stories and then see what positions fit you best.
+
+            
+        
+        
+    ","/involved/volunteer/volunteer-stories.html"
+"37","
+        
+        
+            About Us
+            Get to know us
+            
+                We’re on a mission to save lives and celebrate life. Every single day.
+
+            
+        
+        
+    ","/about-us.html"
+"38","
+            
+                car
+            Road to Recovery
+            
+                Free rides to cancer treatment
+
+            
+        ","/treatment/support-programs-and-services/road-to-recovery.html"
+"39","
+            
+                phoneline
+            Cancer Helpline
+            
+                Cancer information, advice and hope 24/7
+
+            
+        ","/about-us/what-we-do/providing-support.html"
+"40","
+            
+                bed
+            hope lodge
+            
+                A free place to stay when treatment is far away
+
+            
+        ","/treatment/support-programs-and-services/patient-lodging/hope-lodge.html"
+"41","Facebook",NA
+"42","Twitter",NA
+"43","
+            
+                Play
+            
+        ","#"
+"44","Facebook",NA
+"45","Twitter",NA
+"46","
+                
+
+    
+            ","/involved/fundraise/relay-for-life.html"
+"47","
+      relay for life
+ ","/involved/fundraise/relay-for-life.html"
+"48","
+                
+
+    
+            ","/involved/fundraise/making-strides-against-breast-cancer.html"
+"49","
+      making strides
+ ","/involved/fundraise/making-strides-against-breast-cancer.html"
+"50","
+                
+
+    
+            ","/involved/volunteer.html"
+"51","
+      volunteer
+ ","/involved/volunteer.html"
+"52","
+        
+            read more
+        
+        $4.6
+        billion
+    ","/research.html"
+"53","
+      research programs
+ ","/research.html"
+"54","
+      research programs
+ ","/research.html"
+"55","
+        
+            read more
+        
+        6.3
+        million
+    ","/treatment/support-programs-and-services/road-to-recovery.html"
+"56","
+      patient services
+ ","/healthy/more-ways-acs-helps-you-stay-well.html"
+"57","
+      patient services
+ ","/healthy/more-ways-acs-helps-you-stay-well.html"
+"58","
+        
+            read more
+        
+        781
+        thousand
+    ","/health-care-professionals/community-health.html"
+"59","
+      community initiatives
+ ","/health-care-professionals/community-health.html"
+"60","
+      community initiatives
+ ","/health-care-professionals/community-health.html"
+"61","
+        
+            read more
+        
+        2.1
+        million
+    ","/about-us/who-we-are/our-history.html"
+"62","
+      cancer progress
+ ","/about-us/who-we-are/our-history.html"
+"63","
+      cancer progress
+ ","/about-us/who-we-are/our-history.html"
+"64","privacy policy","/about-us/policies/privacy-statement.html"
+"65","DONATE","https://donate3.cancer.org/?lang=en"
+"66","
+                Cancer Prevention & Detection
+                
+            ","/healthy.html"
+"67","
+                Cancer Basics
+                
+            ","/cancer/cancer-basics.html"
+"68","
+                Signs & Symptoms of Cancer
+                
+            ","/cancer/cancer-basics/signs-and-symptoms-of-cancer.html"
+"69","
+                Treatments & Side Effects
+                
+            ","/treatment/treatments-and-side-effects.html"
+"70","
+                Cancer Facts & Statistics
+                
+            ","/research/cancer-facts-statistics.html"
+"71","
+                News and Stories
+                
+            ","/latest-news.html"
+"72","
+                Glossary
+                
+            ","/cancer/glossary.html"
+"73","
+                For Health Care Professionals
+                
+            ","/health-care-professionals.html"
+"74","
+                Breast Cancer Support
+                
+            ","/treatment/support-programs-and-services/reach-to-recovery.html"
+"75","
+                TLC Hair Loss & Mastectomy Products
+                
+            ","http://www.tlcdirect.org/"
+"76","
+                Hope Lodge® Lodging
+                
+            ","/treatment/support-programs-and-services/patient-lodging/hope-lodge.html"
+"77","
+                Rides To Treatment
+                
+            ","/treatment/support-programs-and-services/road-to-recovery.html"
+"78","
+                Online Support Communities
+                
+            ","/treatment/support-programs-and-services/online-communities.html"
+"79","
+                Look Good Feel Better
+                
+            ","/treatment/support-programs-and-services/look-good-feel-better.html"
+"80","
+                Making Strides Against Breast Cancer Walks
+                
+            ","http://makingstrides.acsevents.org"
+"81","
+                Relay For Life Events
+                
+            ","http://relay.acsevents.org"
+"82","
+                College Relay For Life
+                
+            ","http://campus.relayforlife.org/"
+"83","
+                Coaches vs. Cancer
+                
+            ","/involved/fundraise/coaches-vs-cancer.html"
+"84","
+                Galas, Balls & Parties
+                
+            ","/involved/fundraise/galas.html"
+"85","
+                Ways to Give
+                
+            ","/involved/donate.html"
+"86","
+                Memorial Giving
+                
+            ","/involved/donate/memorial-giving.html"
+"87","
+                Planned Giving
+                
+            ","/involved/donate/planned-giving.html"
+"88","
+                Leadership Giving
+                
+            ","/involved/donate/leadership-giving.html"
+"89","
+                Donate a Car
+                
+            ","/involved/donate/more-ways-to-give/cars-for-a-cure.html"
+"90","
+                Contact Us
+                
+            ","/about-us/online-help/contact-us.html"
+"91","
+                Local Offices
+                
+            ","/about-us/local.html"
+"92","
+                Employment
+                
+            ","/about-us/employment-opportunities.html"
+"93","
+                Become a Supplier
+                
+            ","/about-us/become-a-supplier.html"
+"94","
+                Report Fraud or Abuse
+                
+            ","/about-us/financial-governance-information/report-fraud-or-abuse.html"
+"95","
+                Global Health
+                
+            ","/health-care-professionals/our-global-health-work.html"
+"96","
+                ACS CAN
+                
+            ","https://www.acscan.org"
+"97","
+                Sign Up for Email
+                
+            ","/about-us/email-and-enewsletter-sign-up/enewsletter-sign-up.html"
+"98","
+                Policies
+                
+            ","/about-us/policies.html"
+"99","
+                Our Volunteers
+                
+            ","/involved/volunteer.html"
+"100","
+                Bookstore
+                
+            ","/american-cancer-society-books.html"
+"101","
+                Shop
+                
+            ","http://shop.cancer.org/"
+"102","
+                Cancer Atlas
+                
+            ","http://canceratlas.cancer.org/"
+"103","
+                Press Room
+                
+            ","http://pressroom.cancer.org/"
+"104","
+                Cancer Statistics Center
+                
+            ","http://cancerstatisticscenter.cancer.org"
+"105","
+                Volunteer Learning Center
+                
+            ","https://volunteerlearning.cancer.org/"
+"106","Twitter","https://twitter.com/americancancer"
+"107","Facebook","https://www.facebook.com/AmericanCancerSociety"
+"108","Instagram","https://www.instagram.com/americancancersociety/"
+"109","800.227.2345","tel:800.227.2345"
+"110","
+                        
+                            document.write(unescape('%3Cscript language=""JavaScript"" type=""text/javascript"" src=""' + (('https:' == document.location.protocol) ? 'https:' : 'http:') + '//cbi.boldchat.com/aid/5386287375352862963/bc.cbhs""%3E%3C/script%3E'));
+                        
+                            bt_showChatHTML('Live Chat', 'Live Chat');
+                        Live Chat
+                    ","https://livechat.boldchat.com/aid/5386287375352862963/bc.chat?resize=true&cwdid=1134019502191338137"
+"111","Twitter","https://twitter.com/americancancer"
+"112","Facebook","https://www.facebook.com/AmericanCancerSociety"
+"113","Instagram","https://www.instagram.com/americancancersociety/"
+"114","
+                            help
+                        ","/about-us/online-help.html"
+"115","
+                            site map
+                        ","/sitemap.html"
+"116","
+                            privacy policy - 2018
+                        ","/about-us/policies/privacy-statement.html"
+"117","
+                            accessibility
+                        ","/about-us/policies/accessibility-policy.html"
+"118","
+                            terms of use
+                        ","/about-us/policies/user-agreement.html"
+"119","
+                            state fundraising notices
+                        ","/about-us/policies/state-fundraising-notices.html"
+"120","
+                            Site Comments
+                        ","#"
+"121","Close",NA
+"122","Close",NA
+"123","Previous","#modalCarousel"
+"124","Next","#modalCarousel"
+"125","Close",NA
+"126","Close",NA
+"127","Close",NA
+"128","$50","#50"
+"129","$75","#75"
+"130","$125","#125"
+"131","DonateYour gift is 100% tax deductible","https://donate3.cancer.org/?campaign=eoycampaign2018"
+"132","No, Thanks","#"
