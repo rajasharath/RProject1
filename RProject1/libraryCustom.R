@@ -1,18 +1,6 @@
-#install.packages('rvest')
-# The easiest way to get dplyr is to install the whole tidyverse:
-#install.packages("tidyverse")
-# Alternatively, install just dplyr:
-#install.packages("dplyr")
-# Or the development version from GitHub:
-# install.packages("devtools")
-#devtools::install_github("tidyverse/dplyr")
-#install.packages("tidyr")
-#install.packages(c('devtools', 'curl'))
-#devtools::install_github('christophergandrud/DataCombine')
-#install.packages("RCurl")
-#install.packages("XML")
-#install.packages("htm2txt")
-#Loading the rvest package
+library(shiny)
+library(ggplot2) # for the diamonds dataset
+
 library('rvest')
 library('stringi')
 library('stringr')
@@ -23,15 +11,11 @@ library('devtools')
 library('RCurl')
 library('XML')
 library('tm')
+library('SnowballC')
+library('yaml')
+library('DT')
 
-#Specifying the url for desired website to be scraped
-url <- 'https://www.excelra.com/'
-shortUrl <- 'excelra.com'
-csvFileName <- 'cancermainpagetrim.csv' #'cancermainpagetrim.csv'
-csvCorpusFileName <- 'CorpusCancer.csv'
 
-#Reading the HTML code from the website
-webpage <- read_html(url)
 
 #' Extract link texts and urls from a web page
 #' @param url character an url
@@ -129,44 +113,3 @@ cleanStrings <- function(s) {
 
     return(s)
 }
-
-
-
-glinks <- scraplinks(url)
-#glinks
-
-cleanupUrls <- unique(str_trim(glinks$url, "both"))
-#write.csv(cleanupUrls, csvFileName)
-
-df2 <- read.csv(csvFileName, na.strings = "")
-df2 <- df2[!(df2$x == "#"),]
-df3 <- df2[!(df2$x == "/"),]
-#df4 <- df3 %>% filter(x != "NA")    -- Very imp function
-df4 <- df3 %>% filter(x != "NA")
-df4$x <- gsub('^/', url, df4$x)
-df4$x <- gsub('^#', paste(url, '#'), df4$x)
-df5 <- dplyr::filter(df4, grepl(shortUrl, x)) #Need to make domain name dynamic
-df6 <- dplyr::filter(df5, !grepl('tel:', x))
-df6 <- dplyr::filter(df5, !grepl('mailto:', x))
-#df6 <- dplyr::filter(df5, !grepl('https:', x))
-
-allUrls <- df6['x']
-completeUrlsText <- data.frame()
-for (urlOfPage in allUrls$x) {
-    singleUrl <- ""    
-    singleUrl <- str_replace_all(urlOfPage, fixed(" "), "")    
-    urltextData <- clean_link(singleUrl)
-    cleanUrlData <- cleanStrings(urltextData)
-    urlAndText <- data.frame(singleUrl, cleanUrlData)
-    completeUrlsText <- rbind(completeUrlsText,urlAndText)
-}
-
-#View(completeUrlsText)
-
-write.csv(completeUrlsText, "D:\\R\\test1.csv")
-
-#df8 <- read.csv(csvCorpusFileName, na.strings = "")
-
-#df8
-
-

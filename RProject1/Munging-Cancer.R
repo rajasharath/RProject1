@@ -13,7 +13,6 @@
 #install.packages("XML")
 #install.packages("htm2txt")
 #Loading the rvest package
-#install.packages("shiny")
 library('rvest')
 library('stringi')
 library('stringr')
@@ -24,13 +23,12 @@ library('devtools')
 library('RCurl')
 library('XML')
 library('tm')
-library('shiny')
 
 #Specifying the url for desired website to be scraped
-url <- 'https://www.excelra.com/'
-shortUrl <- 'excelra.com'
-csvFileName <- 'excelramainpagetrim.csv' #'cancermainpagetrim.csv'
-csvCorpusFileName <- 'CorpusExcelra.csv'
+url <- 'https://www.cancer.org/'
+shortUrl <- 'cancer.org'
+csvFileName <- 'cancermainpagetrim.csv' #'cancermainpagetrim.csv'
+csvCorpusFileName <- 'CorpusCancer.csv'
 
 #Reading the HTML code from the website
 webpage <- read_html(url)
@@ -150,42 +148,25 @@ df4$x <- gsub('^#', paste(url, '#'), df4$x)
 df5 <- dplyr::filter(df4, grepl(shortUrl, x)) #Need to make domain name dynamic
 df6 <- dplyr::filter(df5, !grepl('tel:', x))
 df6 <- dplyr::filter(df5, !grepl('mailto:', x))
+#df6 <- dplyr::filter(df5, !grepl('https:', x))
 
-
-#allUrls <- df6['x']
-#completeUrlsText <- data.frame()
-#for (urlOfPage in allUrls) {
-    #singleUrl <- str_replace_all(urlOfPage, fixed(" "), "")    
-    #urltextData <- clean_link(singleUrl)
-    #cleanUrlData <- cleanStrings(urltextData)
-    #urlAndText <- data.frame(singleUrl, cleanUrlData)
-    #completeUrlsText <- rbind(urlAndText)    
-#}
+allUrls <- df6['x']
+completeUrlsText <- data.frame()
+for (urlOfPage in allUrls$x) {
+    singleUrl <- ""    
+    singleUrl <- str_replace_all(urlOfPage, fixed(" "), "")    
+    urltextData <- clean_link(singleUrl)
+    cleanUrlData <- cleanStrings(urltextData)
+    urlAndText <- data.frame(singleUrl, cleanUrlData)
+    completeUrlsText <- rbind(completeUrlsText,urlAndText)
+}
 
 #View(completeUrlsText)
 
-df8 <- read.csv(csvCorpusFileName, na.strings = "")
+#write.csv(completeUrlsText, "D:\\R\\test1.csv")
 
-unique(df8)
+#df8 <- read.csv(csvCorpusFileName, na.strings = "")
 
-#write.csv(completeUrlsText, "CorpusExcelra.csv")
-# Define UI for application that plots random distributions 
-shinyUI(pageWithSidebar(
+#df8
 
-# Application title
-  headerPanel("Hello Shiny!"),
 
-  # Sidebar with a slider input for number of observations
-  sidebarPanel(
-    sliderInput("obs",
-                "Number of observations:",
-                min = 1,
-                max = 1000,
-                value = 500)
-  ),
-
-  # Show a plot of the generated distribution
-  mainPanel(
-    plotOutput("distPlot")
-  )
-))

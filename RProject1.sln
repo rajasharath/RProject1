@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{DA7A21FA-8162-4350-AD77-A8D1B671F3ED}") = "RProject1", "RProject1\RProject1.rxproj", "{DB436C33-2C92-4178-9216-F2DECDF5A03E}"
 EndProject
+Project("{DA7A21FA-8162-4350-AD77-A8D1B671F3ED}") = "RProject2", "RProject2\RProject2.rxproj", "{84579DBB-80BD-401B-8BC0-F2F530C5B88E}"
+EndProject
+Project("{DA7A21FA-8162-4350-AD77-A8D1B671F3ED}") = "Research", "Research\Research.rxproj", "{BA1E3C28-E8BE-4BE9-84F6-45BD1CB944BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{DB436C33-2C92-4178-9216-F2DECDF5A03E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB436C33-2C92-4178-9216-F2DECDF5A03E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB436C33-2C92-4178-9216-F2DECDF5A03E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84579DBB-80BD-401B-8BC0-F2F530C5B88E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84579DBB-80BD-401B-8BC0-F2F530C5B88E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84579DBB-80BD-401B-8BC0-F2F530C5B88E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84579DBB-80BD-401B-8BC0-F2F530C5B88E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA1E3C28-E8BE-4BE9-84F6-45BD1CB944BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA1E3C28-E8BE-4BE9-84F6-45BD1CB944BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA1E3C28-E8BE-4BE9-84F6-45BD1CB944BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA1E3C28-E8BE-4BE9-84F6-45BD1CB944BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

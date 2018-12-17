@@ -83,9 +83,10 @@ for (item in df1) {
 
     dtm <- TermDocumentMatrix(mydata)
 
-    dtmMatrix <- as.matrix(dtm)    
-        
-    View(dtmMatrix)
+    dtmMatrix <- as.matrix(dtm)
+    colnames(dtmMatrix) <-  df1[item, "singleUrl"]
+
+    #View(dtmMatrix)
 
     #write.csv(dtmMatrix, "test.csv")
     #print(dtmMatrix["abhilasha",])
@@ -106,5 +107,23 @@ for (item in df1) {
     #df2 = rbind(dtm)
     #print(df2)
 }
+
+searchText <- "chemistri"
+
+isSearchTextExists <- dtmMatrix[searchText,]
+colnameByOrder <- colnames(dtmMatrix)
+df5 <- data.frame(isSearchTextExists, colnameByOrder)
+df5
+#df5[df5$isSearchTextExists > '0']
+df6 <- df5[(df5$isSearchTextExists != 0),]
+df7 <- df6[order(df6$isSearchTextExists),]
+df7
+
+
+#searchText
+#for (item in searchText) {
+    ##if (item == 0)
+    ##print(item.)
+#}
 
 #View(dtmMatrix)
