@@ -12,3 +12,4 @@ getGoogleLinks <- function(google.url) {
 }
 
 getGoogleLinks("https://www.cancer.org")
+
